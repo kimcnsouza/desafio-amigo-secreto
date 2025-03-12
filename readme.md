@@ -7,3 +7,20 @@
 - [Acesso ao Projeto](#acesso-ao-projeto)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Pessoas Contribuidoras](#pessoas-contribuidoras)
+
+## Descrição
+
+
+## Funcionalidades
+
+
+## Demonstração da Aplicação
+
+
+## Acesso ao Projeto
+
+
+## Tecnologias utilizadas
+
+
+## Pessoas Contribuidoras
