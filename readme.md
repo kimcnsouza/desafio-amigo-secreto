@@ -15,7 +15,7 @@ O **Desafio Amigo Secreto** foi uma atividade proposta na primeira etapa do **ON
 Neste projeto, o objetivo principal foi criar uma lista de pessoas e, a partir dessa lista, sortear aleatoriamente uma delas. 
 
 
-#### Funcionalidades
+## Funcionalidades
 
 O código contém dois blocos principais: um responsável por adicionar pessoas à lista e outro dedicado ao sorteio de um amigo secreto entre os participantes.
 
