@@ -54,3 +54,8 @@ function sortearAmigo() {
     }
     
 }
+
+//limpar Jogo
+function limparJogo() {
+    console.log('ok')
+}
