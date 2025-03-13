@@ -57,5 +57,11 @@ function sortearAmigo() {
 
 //limpar Jogo
 function limparJogo() {
-    console.log('ok')
+    listaNomes = [];
+    numeroDeNomes = 0
+    lista.innerHTML = ''
+    resultado.innerHTML = ''
+
+    console.log('O sorteio foi limpo!')
+    alert('Sorteie novamente!!')
 }
