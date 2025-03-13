@@ -15,21 +15,23 @@ O **Desafio Amigo Secreto** foi uma atividade proposta na primeira etapa do **ON
 Neste projeto, o objetivo principal foi criar uma lista de pessoas e, a partir dessa lista, sortear aleatoriamente uma delas. 
 
 
-## Funcionalidades
+#### Funcionalidades
 
 O código contém dois blocos principais: um responsável por adicionar pessoas à lista e outro dedicado ao sorteio de um amigo secreto entre os participantes.
 
 - **Adicionar Pessoas à Lista**: Permite incluir pessoas na lista de participantes do sorteio.
 - **Sortear Amigo Secreto**: Sorteia aleatoriamente um amigo secreto dentre as pessoas cadastradas na lista.
 
-De forma mais técnica, no bloco **Adicionar Pessoas à Lista**, usamos uma array no JS para armazenar os nomes e dentro da função adicionarNome(), usamos um metodo push para que os nomes fossem inseridos ao final da lista, em seguida, os métodos map e join foram utilizados para que a array e seus elemntos fosse 'tranformados' em <li> no HTML
-Além disso, nesse bloco, a cada nome adicionado é somado somado a variavel numeroDeNomes +1, para nos auxiliar no próximo bloco, o sorteio de nomes.
+De forma mais técnica, no bloco **Adicionar Pessoas à Lista**, usamos um array no JS para armazenar os nomes e, dentro da função `adicionarNome()`, usamos um método `push` para que os nomes fossem inseridos ao final da lista. Em seguida, os métodos `map` e `join` foram utilizados para que o array e seus elementos fossem "transformados" em `li` no HTML.  
+Além disso, nesse bloco, a cada nome adicionado, é somado 1 à variável `numeroDeNomes` para nos auxiliar no próximo bloco, o sorteio de nomes.
 
-No bloco, **Sortear Amigo Secreto**, utilizei o Math.random para gerar um número aleatorio de acordo com o valor da variavel numeroDeNomes, em seguida informei ao código que o resultado que deveria ser exibido era igual ao nome inserido no indice indice sorteado anteriormente.
+No bloco **Sortear Amigo Secreto**, utilizei o `Math.random` para gerar um número aleatório de acordo com o valor da variável `numeroDeNomes`. Em seguida, informei ao código que o resultado a ser exibido era igual ao nome inserido no índice sorteado anteriormente.
 
-Além disso, coloquei algumas informações serem exibidas no console, como, array e número de nomes na lista atualizados a cada clique e o indice sorteado.
+O botão "Limpar" também foi criado do zero. Nele, defini que todas as variáveis e campos voltariam ao seu estágio primário. Além disso, ao clicar, ele apresentará um alerta na tela, informando que o jogo foi limpo.
 
-Decidi também manter alguns comentarios durante o código para me ajudar no desenvolvimento e releitura do mesmo.
+Também coloquei algumas informações para serem exibidas no console, como o array e o número de nomes na lista atualizados a cada clique, além do índice sorteado.
+
+Por fim, decidi também manter alguns comentários durante o código para me ajudar no desenvolvimento e releitura do mesmo.
 
 
 ## Demonstração da Aplicação
