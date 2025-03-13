@@ -22,6 +22,15 @@ O código contém dois blocos principais: um responsável por adicionar pessoas 
 - **Adicionar Pessoas à Lista**: Permite incluir pessoas na lista de participantes do sorteio.
 - **Sortear Amigo Secreto**: Sorteia aleatoriamente um amigo secreto dentre as pessoas cadastradas na lista.
 
+De forma mais técnica, no bloco **Adicionar Pessoas à Lista**, usamos uma array no JS para armazenar os nomes e dentro da função adicionarNome(), usamos um metodo push para que os nomes fossem inseridos ao final da lista, em seguida, os métodos map e join foram utilizados para que a array e seus elemntos fosse 'tranformados' em <li> no HTML
+Além disso, nesse bloco, a cada nome adicionado é somado somado a variavel numeroDeNomes +1, para nos auxiliar no próximo bloco, o sorteio de nomes.
+
+No bloco, **Sortear Amigo Secreto**, utilizei o Math.random para gerar um número aleatorio de acordo com o valor da variavel numeroDeNomes, em seguida informei ao código que o resultado que deveria ser exibido era igual ao nome inserido no indice indice sorteado anteriormente.
+
+Além disso, coloquei algumas informações serem exibidas no console, como, array e número de nomes na lista atualizados a cada clique e o indice sorteado.
+
+Decidi também manter alguns comentarios durante o código para me ajudar no desenvolvimento e releitura do mesmo.
+
 
 ## Demonstração da Aplicação
 
