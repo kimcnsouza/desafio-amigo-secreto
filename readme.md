@@ -34,10 +34,6 @@ Também coloquei algumas informações para serem exibidas no console, como o ar
 Por fim, decidi também manter alguns comentários durante o código para me ajudar no desenvolvimento e releitura do mesmo.
 
 
-## Demonstração da Aplicação
-
-
-
 ## Acesso ao Projeto
 Você pode acessar a demonstração do projeto pelo link: 
 
